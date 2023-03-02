@@ -3,7 +3,7 @@
 
 This app is a web-based tool that allows researchers to analyze leaf photosynthetic responses transitioning from low to high oxygen. The app allows you to upload a CSV file and explore fitting exponential decay models to your data. You can adjust the range of time values to fit, and select the number of phases for the exponential decay model. The app is built on the R programming language and the Shiny web framework.
 
-The app is hosted at https://flux.shinyapps.io/oxygenTransientFit/ with 25 active hours per month.
+The app is hosted at https://flux.shinyapps.io/oxygenTransientFit with 25 active hours per month.
 
 ## Getting Started
 
@@ -27,7 +27,7 @@ install.packages(c("shiny", "tidyverse", "shinythemes", "DT", "nls.multstart"))
 To install the app, you can download the code from the GitHub repository:
 
 ```
-git clonehttps://github.com/codexf/oxygenTransientFit.git
+git clone https://github.com/codexf/oxygenTransientFit.git
 
 ```
 
